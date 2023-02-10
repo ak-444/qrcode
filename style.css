@@ -12,6 +12,7 @@ body{
 .container {
     margin-top: 10%;
     padding-bottom: 10px;
+    display: flex;
 }
 
 .card {
