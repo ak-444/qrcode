@@ -2,24 +2,27 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
-body{
+body {
     font-family: 'Nunito', sans-serif;
     background-color: #d5e1ef;
 }
 
-.container {
-    margin-top: 10%;
-    padding-bottom: 10px;
-    display: flex;
+body .container{
+    justify-content: space-between;
+    height: 100vh;
 }
+
 
 .card {
     background-color: white;
     width: 220px;
     height: 360px;
     margin: auto;
+    margin-top: 10%;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,9 +75,12 @@ body{
     text-align: center;
 }
 
-.attribution {
-    font-size: large;
-    padding-top: 10px;
-    justify-content: center;
+footer {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    padding: 5px;
+    width: 100%;
     align-items: center;
-}
+    justify-content: center;
+ }
